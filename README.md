@@ -1,5 +1,5 @@
 # contact-complete-directive
-Autocomplete / ContactComplete directive for **[ionic framework](http://ionicframework.com)** on **[angularJS](angularjs.org)**
+Autocomplete / ContactComplete directive for **[ionic framework](http://ionicframework.com)** on **[angularJS](http://angularjs.org)**
 
 With this directive you can create an autocomplete box out of each input, getting its data from a callback function (e.g. Cordova contacts plugin). It uses the list from ionic framework (http://ionicframework.com) to display the autocomplete items.
 
