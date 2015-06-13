@@ -5,11 +5,13 @@ With this directive you can create an autocomplete box out of each input, gettin
 
 ### Usage Example: 
 **Template:**
-
+```html
     <input contact-complete contact-complete-callback="onContactSearch" contact-complete-container="contactCompleteContainer" type="text" [...]  />
     <div id="contactCompleteContainer{{$index}}">
        <!-- here the ionic-list will be placed -->
     </div>
+```
+
 * The ***contact-complete*** attribute initializes the use of the directive. 
 * The ***contact-complete-callback*** attribute is optional and contains an element id of a container where the list should be placed in. If you dont provide this attribute, the autocomplete list will be placed imediately after the input element.
 
