@@ -14,7 +14,7 @@ With this directive you can create an autocomplete box out of each input, gettin
 * The ***contact-complete-callback*** attribute is optional and contains an element id of a container where the list should be placed in. If you dont provide this attribute, the autocomplete list will be placed imediately after the input element.
 
 **Contoller (simple example):**
-
+```js
     /**
     * performs a search in the phones contacts on typing in autocomplete
     * @param {String} query - the search query
@@ -38,10 +38,10 @@ With this directive you can create an autocomplete box out of each input, gettin
         ]);
       });
     };
-    
+```    
     
 ***Controller (example using cordova contacts plugin):***
-
+```js
     /**
      * performs a search in the phones contacts on typing in autocomplete
      * @param {String} query - the search query
@@ -89,6 +89,6 @@ With this directive you can create an autocomplete box out of each input, gettin
         }
       });
     }
-
+```
 
 
