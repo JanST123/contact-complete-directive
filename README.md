@@ -3,7 +3,11 @@ Autocomplete / ContactComplete directive for **[ionic framework](http://ionicfra
 
 With this directive you can create an autocomplete box out of each input, getting its data from a callback function (e.g. Cordova contacts plugin). It uses the list from ionic framework (http://ionicframework.com) to display the autocomplete items.
 
-### Usage Example: 
+### Example:
+![Example animation](example.gif "Example Animation")
+[Example App in Playstore](https://play.google.com/store/apps/details?id=net.mitbringen.mobile)
+
+### Code Example: 
 **Template:**
 ```html
     <input contact-complete contact-complete-callback="onContactSearch" contact-complete-container="contactCompleteContainer" type="text" [...]  />
